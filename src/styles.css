@@ -1,0 +1,27 @@
+/* Variables */
+:root {
+    --prime-color: #222222;
+    --main-light-color: #f2faff;
+    --main-dark-color: #18191a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif, Helvetica, Arial;
+    color: var(--main-text);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--main-light-color);
+}
+
+.prime-text {
+    color: var(--prime-text);
+}

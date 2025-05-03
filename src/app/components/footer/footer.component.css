@@ -1,0 +1,46 @@
+footer {
+    background-color: var(--prime-color);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+}
+
+footer .col p {
+    width: 400px;
+    font-size: 14px;
+    color: #EEEEEE;
+}
+
+footer .col {
+    border: solid 1px red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #FFFFFF;
+}
+
+ul li {
+    margin-bottom: 5px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+footer .col div.social-links ul {
+    display: flex;
+    justify-content: space-between;
+}
