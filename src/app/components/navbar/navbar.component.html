@@ -4,9 +4,16 @@
     <li><a routerLink="recommends" routerLinkActive="active-link">Recommends</a></li> -->
     <li class="search-bar">
       <img src="svgs/searchengin.svg" class="search-icon">
+        <i class="fa-solid fa-cart-shoping" routerLink="/cart" routerLinkActive="active-link"></i>
+
       <input type="text" placeholder="Search for products" />
+        <i class="fa-solid fa-cart-shoping" routerLink="/cart" routerLinkActive="active-link"></i>
+
     </li>
     <ul class="nav-right">
+      <li>
+        <i class="fa-solid fa-cart-shoping" routerLink="/cart" routerLinkActive="active-link"></i>
+      </li>
       <li>
         <button routerLink="/register" routerLinkActive="active-btn">
           Register
@@ -18,7 +25,14 @@
         </button>
       </li>
       <li>
-        <a routerLink="account"><img src="svgs/users/user.svg" /></a>
+        <a routerLink="account">
+          <i class="fa-regular fa-circle-user"></i>
+        </a>
+      </li>
+      <li>
+        <a routerLink="account">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
       </li>
     </ul>
   </ul>

@@ -25,3 +25,39 @@ body {
 .prime-text {
     color: var(--prime-text);
 }
+
+i {
+    color: var(--prime-color);
+    font-size: 33px;
+    object-fit: contain;
+}
+
+/* Basic Form Styles */
+.form-group input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    font-weight: 500;
+    outline: none;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    font-weight: 500;
+    outline: none;
+    resize: vertical;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 150px;
+}
